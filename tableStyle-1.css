@@ -1,0 +1,251 @@
+#boxScore_container {
+    position: relative;
+    letter-spacing: 1px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 20px;
+    width: 300px;
+    margin: 0 auto;
+    float: left;
+    clear: left;
+}
+
+
+#gameLeader_container {
+    position: relative;
+    letter-spacing: 1px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 20px;
+    width: 300px;
+    margin: 0 auto;
+    float: right;
+}
+#standings_container {
+    position: relative;
+    letter-spacing: 1px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 20px;
+    width: 300px;
+    margin: 0 auto;
+    float: right;
+    clear: right;
+}
+
+.score {
+    position: relative;
+    font-size: 27px;
+    font-weight:bold;
+    width: 298px;
+    height:100px;
+    border: 1px solid #CCCCCC;
+}
+
+#bobcatsPlayerOfTheGame_container {
+    position: relative;
+    letter-spacing: 1px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top: 20px;
+    width: 300px;
+    margin: 0 auto;
+    float: left;
+    clear: left;
+}
+
+#LinksBelow {
+    width: 300px;
+    text-align: center;
+}
+
+
+.score p {
+    float: left;
+    margin-left: 15px;
+    clear: left;
+}
+.score img {
+    margin-left: 14px;
+    margin-right: 14px;
+    height: 30px;
+    width: auto;
+}
+.boxScore {
+    position: relative;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    width:100%;
+}
+.boxScore caption {
+    font-size:20px;
+    font-weight:bold;
+    padding-top: 20px;
+    height:50px;
+    border: 1px solid #CCCCCC;
+}
+.boxScore thead {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    font-weight:bold;
+}
+.boxScore tr {
+    background:#CCCCCC;
+    font-weight:normal;
+}
+.boxScore tbody tr:nth-child(odd) {
+    background-color: white;
+}
+.boxScore td {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    padding: 5px;
+    text-align: left;
+}
+.boxScore td:first-child {
+    text-align: left;
+    width: 150px;
+    font-weight:normal;
+}
+.boxScore td:not(:first-child) {
+    text-align: center;
+    width: 50px;
+}
+.boxScore th:first-child {
+    text-align: left;
+    width: 180px;
+    font-weight:bold;
+}
+.boxScore tbody tr:nth-child(6) {
+    font-weight:bold;
+}
+.boxScore th:first-child {
+    text-align: left;
+    width: 180px;
+    font-weight:bold;
+}
+.gameLeaders {
+    position: relative;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    width: 340px;
+    float: right;
+    clear: right;
+}
+.gameLeaders caption {
+    font-size:20px;
+    font-weight:bold;
+    padding-top: 20px;
+    height:50px;
+    border: 1px solid #CCCCCC;
+}
+.gameLeaders thead {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    font-weight:bold;
+}
+.gameLeaders tr {
+    background:#CCCCCC;
+}
+.gameLeaders tbody {
+    font-size: 13px;
+}
+.gameLeaders thead th:nth-child(3) {
+    width: 150px;
+    text-align: left;
+}
+.gameLeaders thead th:nth-child(2) {
+    width: auto;
+}
+.gameLeaders tbody td:nth-child(odd) {
+    width: 150px;
+}
+.gameLeaders tbody td:nth-child(2) {
+    text-align: center;
+}
+.gameLeaders tbody tr:nth-child(even) {
+    background:#CCCCCC;
+}
+.gameLeaders tbody tr:nth-child(odd) {
+    background-color: white;
+}
+.gameLeaders td {
+    border-left: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    padding: 5px;
+    text-align: left;
+    font-weight:normal;
+}
+.gameLeaders td:first-child {
+    text-align: right;
+    width: 150px;
+    font-weight:bold;
+}
+.gameLeaders th:first-child {
+    text-align: right;
+    width: 150px;
+    font-weight:bold;
+}
+
+.bobcatsPlayerOfTheGame {
+    position: relative;
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    width: 100%;
+    float: left;
+}
+.bobcatsPlayerOfTheGame caption:first-child {
+    font-size:20px;
+    font-weight:bold;
+    padding-top: 20px;
+    height:50px;
+    border: 1px solid #CCCCCC;
+    background-color: #CCCCCC;
+}
+.bobcatsPlayerOfTheGame caption:not(:first-child) {
+    font-size:20px;
+    font-weight:bold;
+    padding-top: 10px;
+    border: 1px solid #CCCCCC;
+}
+.bobcatsPlayerOfTheGame tbody td:first-child {
+    border: 1px solid #CCCCCC;
+}
+.bobcatsPlayerOfTheGame img {
+    width: 100%;
+}
+.bobcatsPlayerOfTheGame tbody td:not(:first-child) {
+    width: 60%;
+    border: 1px solid #CCCCCC;
+}
+
+
+
+#LinksBelow td{
+    width:133.33px;
+}
+
+
+/* unvisited link */
+
+#LinksBelow a:link {
+    color: #455868;
+	 text-decoration: none;
+}
+
+/* visited link */
+
+#LinksBelow a:visited {
+    color: black;
+	  text-decoration: none;
+}
+
+/* mouse over link */
+
+#LinksBelow a:hover {
+    color: #008B9B;
+	text-decoration: underline;
+}
+
+/* selected link */
+
+#LinksBelow a:active {
+    color: #2D214A;
+	text-decoration: underline;
+}

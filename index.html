@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Charlotte Hornets Game Day Recap</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="navStyle.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="responsive.css">
+        <link rel="stylesheet" type="text/css" href="tableStyle.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script>
+            $(function() {
+                var pull = $('#pull');
+                menu = $('nav ul');
+                menuHeight = menu.height();
+
+                $(pull).on('click', function(e) {
+                    e.preventDefault();
+                    menu.slideToggle();
+                });
+
+                $(window).resize(function() {
+                    var w = $(window).width();
+                    if (w > 320 && menu.is(':hidden')) {
+                        menu.removeAttr('style');
+                    }
+                });
+            });
+        </script>
+    </head>
+    
+    <body>
+        <div id=header>
+            <nav class="clearfixcNav">
+                <ul class="clearfixcNav">
+                    <li><a href="http://www.nba.com/hornets/tickets">Tickets</a>
+
+                    </li>
+                    <li><a href="http://www.nba.com/hornets/schedule">Schedule</a>
+
+                    </li>
+                    <li><a href="http://www.nba.com/hornets/team_landing_page.html">Team</a>
+
+                    </li>
+                    <li><a href="http://www.nba.com/hornets/news">News</a>
+
+                    </li>
+                    <li><a href="http://www.nba.com/hornets/video/">Video</a>
+
+                    </li>
+                    <li><a href="http://www.nba.com/hornets/corporate-social-responsibility">Community</a>
+
+                    </li>
+                </ul> <a href="#" id="pull">Menu</a>
+
+            </nav>
+            <div id="TopImage" ALIGN="CENTER">
+                <img src="images/hornets_logo.png" alt="Charlotte Hornets Logo" />
+            </div>
+        </div>
+        <div id="w" align="center">
+            <header class="clearfix">
+                <div id="info">
+                     <h1 ALIGN="CENTER" style="font-size:50px"><span >Cats Grab No. 6 Spot</span></h1>
+
+                     <h3><span>By Shane Skeary</span></h3>
+
+                     <h3><span>April 9, 2014</span></h3>
+
+                </div>
+                <div id="description" ALIGN="center">
+                    <p ALIGN="left">Behind Al Jefferson's 38th double-double (20 points, 18 rebounds) and Kemba Walker's ninth (17 points, 12 assists), the Bobcats outlasted the Washington Wizards, 94-88, in overtime for a season-high, fifth-straight win and the No. 6 spot in the Eastern Conference standings.</p>
+                </div>
+                <div id="photo">
+                    <img id="FrontShot" src="images/bigAl.jpg" alt="Charlotte Hornets Logo" itemprop="image" />
+                    <p><a href="http://www.nba.com/hornets/gallery/april-2014-game-gallery">Game Gallery</a>
+
+                    </p>
+                </div>
+            </header>
+            <section>
+                <div id="boxScore_container">
+                    <div class="score">
+                        <p>94
+                            <img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/bobcats/images/Bobcats-Score-Logo.jpg" />vs
+                            <img src="http://i.cdn.turner.com/nba/nba/.element/img/2.0/sect/gameinfo/teamlogos/WAS.gif" />88</p>
+                    </div>
+                    <table class="boxScore">
+                        <caption>Verizon Center, Washington, DC</caption>
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>1</th>
+                                <th>2</th>
+                                <th>3</th>
+                                <th>4</th>
+                                <th>OT</th>
+                                <th>F</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CHA</td>
+                                <td>32</td>
+                                <td>22</td>
+                                <td>17</td>
+                                <td>16</td>
+                                <td>7</td>
+                                <td>94</td>
+                            </tr>
+                            <tr>
+                                <td>WAS</td>
+                                <td>18</td>
+                                <td>23</td>
+                                <td>25</td>
+                                <td>21</td>
+                                <td>1</td>
+                                <td>88</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table id="LinksBelow">
+                        <tbody>
+                            <tr>
+                                <td style="border-right: 1px solid #CCCCCC"> <a href="http://www.nba.com/hornets/news/preview-keys-beat-wizards-1">Preview</a>
+
+                                </td>
+                                <td style="border-right: 1px solid #CCCCCC"> <a href="http://www.nba.com/tvc/index.html?gamecode=20140409/WASCHA&brand=CHA">Boxscore</a>
+
+                                </td>
+                                <td> <a href="http://www.nba.com/hornets/2013-14-cats-game-recaps">Game Recaps</a>
+
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="standings_container">
+                    <table class="boxScore">
+                        <caption>Conference Standings</caption>
+                        <thead>
+                            <tr>
+                                <th>Eastern Conference Playoff Standings</th>
+                                <th>W</th>
+                                <th>L</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Indiana</td>
+                                <td>54</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>Miami</td>
+                                <td>53</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>Toronto</td>
+                                <td>46</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <td>Chicago</td>
+                                <td>46</td>
+                                <td>32</td>
+                            </tr>
+                            <tr>
+                                <td>Brooklyn</td>
+                                <td>42</td>
+                                <td>34</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: bold">Charlotte</td>
+                                <td>40</td>
+                                <td>38</td>
+                            </tr>
+                            <tr>
+                                <td>Washington</td>
+                                <td>40</td>
+                                <td>38</td>
+                            </tr>
+                            <tr>
+                                <td>Atlanta</td>
+                                <td>35</td>
+                                <td>43</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="bobcatsPlayerOfTheGame_container">
+                    <table class="bobcatsPlayerOfTheGame">
+                        <caption>Bobcats Player Of the Game</caption>
+                        <caption>Al Jefferson</caption>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/bobcats/images/2013-Headshots-Jefferson.jpg" />
+                                </td>
+                                <td>Big Al came up big again for the Cats, finishing with a team-high 20 points and a game-high 18 rebounds. Jefferson now has nine double-doubles in his last 11 games and has scored 20 or more in 34 of his last 41 games.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="gameLeader_container">
+                    <table class="gameLeaders">
+                        <caption>GAME LEADERS</caption>
+                        <thead>
+                            <tr>
+                                <th>Bobcats</th>
+                                <th></th>
+                                <th>Wisards</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="font-weight: normal">Jefferson - 20</td>
+                                <td>Points</td>
+                                <td>27 - Gortat</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: normal">Jefferson - 18</td>
+                                <td>Rebounds</td>
+                                <td>14 - Gortat</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: normal">Walker - 12</td>
+                                <td>Assists</td>
+                                <td>11 - Wall</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: normal">(2 Tied ) - 2</td>
+                                <td>Steals</td>
+                                <td>2 - (2 Tied)</td>
+                            </tr>
+                            <tr>
+                                <td style="font-weight: normal">Kidd-Gilchrist - 1</td>
+                                <td>Blocks</td>
+                                <td>5 - Booker</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+            
+            
+            <section id="Game_Recap">
+                 <h2>TURNING POINTS</h2>
+
+                <p>The Cats appeared to have let this one get away as they led by as many as 20 in the second quarter and let the Wizards come all the way back to take their first lead with 5:28 left in the fourth. Both teams traded buckets for the rest of the quarter, forcing the game into overtime tied, 87-87. Kemba Walker drilled the only field goal in the extra session a - deep, 30-foot three-pointer to give the Cats an early lead. That's all they would need as Charlotte sealed the game with clutch free throws from Walker and Al Jefferson, outscoring Washington 7-1 in OT.</p>
+            </section>
+            <section class="clearfix">
+                 <h2>PLAYERS OF THE GAME</h2>
+
+                <div id="POGLeft">
+                     <h4 align="center">BOBCATS </h4>
+
+                    <p>Big Al came up big again for the Cats, finishing with a team-high 20 points and a game-high 18 rebounds. Jefferson now has nine double-doubles in his last 11 games and has scored 20 or more in 34 of his last 41 games.</p>
+                </div>
+                <div id="POGRight">
+                    	<h4 align="center">WIZARDS </h4>
+
+                    <p>Marcin Gortat did his best to contain Al Jefferson but managed to have a spectacular night of his own with a game-high 27 points and 14 rebounds in 44 minutes of action.</p>
+                </div>
+            </section>
+            <section id="GameNotes">
+                 <h2>GAME NOTES</h2>
+
+                <p>The Cats are now riding a season-high five-game winning streak. The team is now 17-8 since the All-Star Break and 13-5 in their last 18 games... With the victory, Charlotte has now moved up to sixth place in the Eastern Conference and owns the tiebreaker, 3-1, over the Washington Wizards... Josh McRoberts returned to the starting lineup after missing three games with a left ankle sprain. He performed well, finishing with 12 points, two boards, two assists and two stealsâ€¦ With 17 points, Kemba Walker has hit double-figures in 22 of his last 28 games and in 59 of his 71 games played this season...Charlotte was able to hold the Wizards to 88 points, marking the 51st time in 78 games the Cats have held their opponent under 100 points, fourth-most games in the NBA.</p>
+            </section>
+            <section id="NextUp">
+                	<h2>NEXT UP</h2>
+
+                <p>The Cats will play the final game of their road trip in Boston on April 11 as they take on the Celtics. Listen live on WFNZ 610 am, the official Bobcats App presented by Walgreens or on bobcats.com. The game can also be seen on SportSouth and NBA League Pass.</p>
+            </section>
+            <section>	<a href="http://www.nba.com/wizards/?hp=1" class="button">Next Opponent<i class="icon-chevron-right"></i></a>
+
+            </section>
+    </body>
+
+</html>
